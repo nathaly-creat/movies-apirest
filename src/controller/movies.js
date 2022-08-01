@@ -34,4 +34,4 @@ const obtenerPeliculasId = (req, res) => {
 }
 
 
-module.exports = {obtenerPeliculas}
+module.exports = {obtenerPeliculas , obtenerPeliculasId};
