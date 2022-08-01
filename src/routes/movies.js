@@ -5,8 +5,8 @@ const router = Router();
 
 
 //Raiz
-router.get('/', obtenerPeliculas);
-router.get('/:id', obtenerPeliculasId);
+router.get('/movie/', obtenerPeliculas);
+router.get('/movie/:id', obtenerPeliculasId);
 
  
 module.exports = router;

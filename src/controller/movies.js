@@ -24,7 +24,8 @@ const obtenerPeliculasId = (req, res) => {
         };
         axios(config)
         .then(function (response) {
-            res.send(response.data);
+          // console.log(response.data);
+          res.send(response.data);
         }
         )
         .catch(function (error) {
